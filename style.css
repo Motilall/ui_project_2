@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'gillroy';
+    src: url(fonts/F:\Codes\fonts\Gilroy-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gillroy', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+}
+#main{
+    margin: 10px 150px;
+}
+#main h1{
+    font-weight: 600;
+    font-size: 90px;
+    letter-spacing: -5px;
+    word-spacing: 2px;
+}
+#contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#box{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+#play{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+#para{
+    height: 100%;
+    width: 50%;
+    margin-right: 150px;
+    padding-right: 200px;
+    line-height: 30px;
+}
+#bottom{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#right{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#triangle{
+    margin: 25px 30px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid white;
+    border-bottom: 25px solid transparent;
+}
